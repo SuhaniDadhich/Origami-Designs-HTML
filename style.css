@@ -1,23 +1,36 @@
-
+.body{
+    margin-left: 0px;
+    
+}
 .classOne{
     background-color:#C387E8;
     display:flex;
+    padding-left: 30px;
+    margin: 10px;
  ;
 }
 
 .header{
     background-color:#7F8FEB;
 display: flex;
+padding-left: 50%;
+
 }
 
 .classTwo{
     background-color:#F6F340;
 display: flex;
+padding: 10px;
+margin: 10px;
 }
 
 .classThree{
     background-color:#9EF366;
     display: flex;
-   
+ 
+}
 
+.origami{
+    margin: 10px;
+padding-right: 50%;
 }
