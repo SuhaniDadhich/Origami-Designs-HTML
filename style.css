@@ -1,5 +1,6 @@
 .body{
     margin-left: 0px;
+
     
 }
 .classOne{
@@ -30,7 +31,31 @@ margin: 10px;
  
 }
 
+.origami p, .origami1 p, .origami2 p, .origami3 p, .origami4 p, .origami5 p{
+   position:absolute;
+   font-family: 'Times New Roman';
+   font-size:30px;
+   
+   left: 50%;
+  
+
+}
 .origami{
     margin: 10px;
-padding-right: 50%;
+    padding-right: 50%;
+position: relative;
+}
+.origami:hover, .origami1:hover, 
+.origami2:hover, .origami3:hover, 
+.origami4:hover, .origami5:hover{
+    transform:scale(0.9);
+}
+
+
+a:link{
+color: blue;
+}
+
+v:link{
+    color:coral;
 }
